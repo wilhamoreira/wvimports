@@ -48,6 +48,7 @@
   display:flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 3rem;
 }
 .produto{
   display: flex;
@@ -61,8 +62,8 @@
   align-items: center;
   border-radius: 30%;
   border: 4px solid rgb(0, 0, 0);
-  width: 18rem;
-  height: 18rem;
+  width: 16rem;
+  height: 16rem;
 }
 .produto a{
   width: 100%;
@@ -154,11 +155,30 @@ width: 15rem;
 }
 /*fim nova estilização*/
 .rodape{
-    margin-top: 150px;
+    margin-bottom: 0;
     display: flex;
     justify-content: center;
 }
+.rodape a{
+  width: 100%;
+  height: 100%;
+  background-color: #9b1566;
+  padding: 8px 16px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  align-items: center;
+}
+.rodape a:hover{
+  background-color: darkorchid;
+ /* border: 3px solid #fff;*/
+ border: 1px solid #fff;
 
+}
 @media screen and (max-width: 720px) {
   .content {
     flex-direction: column;
