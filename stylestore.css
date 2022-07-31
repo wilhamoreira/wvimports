@@ -32,7 +32,7 @@
   }
   .geral{
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -179,8 +179,19 @@ width: 15rem;
  border: 1px solid #fff;
 
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 920px) {
   .content {
     flex-direction: column;
+    height: 100%;
+  }
+  .produto .selected{
+    padding: 1.4rem;
+  }
+  .produto select {
+    height: 1.4rem;
+    margin-top: -10px;
+  }
+  .fperfil{
+    margin-top: 2rem;
   }
 }
